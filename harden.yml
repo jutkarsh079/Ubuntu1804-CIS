@@ -1,0 +1,8 @@
+- name: Harden Server
+  hosts: 35.232.209.58
+  #connection: local
+  gather_facts: true
+  #become: no
+  #become_pass: "utkarsh"
+  roles:
+    - Ubuntu1804-CIS
